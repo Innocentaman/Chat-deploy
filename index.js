@@ -19,7 +19,7 @@ app.use(cookieParser());
 
 // CORS Configuration
 const corsOption = {
-    origin: ['http://localhost:3000', 'https://67767c5097d6eaf9fbfb0be2--chipper-salamander-7245bf.netlify.app'], // Add allowed domains here
+    origin: ['https://localhost:3000', 'https://67767c5097d6eaf9fbfb0be2--chipper-salamander-7245bf.netlify.app'], // Add allowed domains here
     credentials: true
 };
 app.use(cors(corsOption)); 
