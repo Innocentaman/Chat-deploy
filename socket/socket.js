@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
     cors:{
-        origin:['http://localhost:3000'],
+        origin:['http://localhost:3000','https://67767c5097d6eaf9fbfb0be2--chipper-salamander-7245bf.netlify.app'],
         methods:['GET', 'POST'],
     },
 });
